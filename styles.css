@@ -1,0 +1,36 @@
+:root {
+    --navy: #0a192f;
+    --green-accent: #64ffda;
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --whiteish: #e6f1ff;
+}
+
+* {
+    background-color: var(--navy);
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: #0a192f;
+}
+
+.text {
+    padding-left: 20%;
+    margin: 0;
+}
+
+.hi {
+    color: var(--green-accent);
+    font-size: 16px;
+}
+
+.intro {
+    color: var(--whiteish);
+    font-size: 48px;
+}
+
+.web {
+    color: var(--slate);
+    font-size: 44px;
+}
